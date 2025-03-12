@@ -1,7 +1,7 @@
 const SearchBar = async () => {
   // This component will handle the search for a specific pokemon, 
   
-  // const exampleMethod = await fetchexampleMethod();
+  // const fetchName = await fetchPokemon(pokemonName);
   
   return (
     <label className="input">
