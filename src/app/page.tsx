@@ -17,7 +17,7 @@ export default function Home() {
           priority
         />
         <SearchBar />
-        <Card />
+        {/* <Card /> */}
         <Sprite />
       </main>
       <Footer />

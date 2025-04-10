@@ -7,7 +7,7 @@ export default async function RegionBadge() {
   return (
     <div>
      {data.map((region: PokemonGeneration) => (
-      <button className="btn badge badge-outline badge-neutral">{region}</button>
+      <button key={region} className="btn badge badge-outline badge-neutral">{region}</button>
       ))}
     </div>
   )
